@@ -137,7 +137,7 @@ class TicTacToe
     else 
       winning_position = winning_combo[0]
       winning_token = @board[winning_position]
-   end
+    end
   end
   
 end 
