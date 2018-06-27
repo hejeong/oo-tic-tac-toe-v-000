@@ -128,4 +128,8 @@ class TicTacToe
       false
     end
   end
+  
+  def winner
+    
+  end
 end 
