@@ -149,5 +149,6 @@ class TicTacToe
       "Congratulations #{winner}"
     else
       "Draw"
+    end
   end
 end 
