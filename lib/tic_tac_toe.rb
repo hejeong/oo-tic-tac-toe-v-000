@@ -105,7 +105,7 @@ class TicTacToe
   end
   
   def full?
-    @board.any? do |element|
+    @board.none? do |element|
       if element != "X" && element != "O"
         true
       else
