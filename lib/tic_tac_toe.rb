@@ -47,4 +47,8 @@ class TicTacToe
   end
   
   def turn
+    puts "Enter a valid position(1-9): "
+    input = gets.strip
+    index = input_to_index(input)
+  end
 end 
