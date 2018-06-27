@@ -146,9 +146,9 @@ class TicTacToe
     end
     
     if winner != nil
-      "Congratulations #{winner}"
+      "Congratulations #{winner}!"
     else
-      "Draw"
+      "Cat's Game!"
     end
   end
 end 
