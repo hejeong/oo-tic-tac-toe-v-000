@@ -50,5 +50,14 @@ class TicTacToe
     puts "Enter a valid position(1-9): "
     input = gets.strip
     index = input_to_index(input)
+    
+  end
+  
+  def turn_count
+    count = 0
+    @board.each do |element|
+      if element == "X" || element == "O"
+        
+    end
   end
 end 
