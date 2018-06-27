@@ -141,6 +141,13 @@ class TicTacToe
   end
   
   def play 
+    until over?
+      turn
+    end
     
+    if winner != nil
+      "Congratulations #{winner}"
+    else
+      "Draw"
   end
 end 
