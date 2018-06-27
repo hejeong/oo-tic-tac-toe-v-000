@@ -132,8 +132,12 @@ class TicTacToe
   
   def winner
     winning_combo = won?
-    winning_position = winning_combo[0]
-    winning_token = @board[winning_position]
+    if winning_combo.class != Array
+      nil
+    else 
+      winning_position = winning_combo[0]
+      winning_token = @board[winning_position]
+   end
   end
   
 end 
