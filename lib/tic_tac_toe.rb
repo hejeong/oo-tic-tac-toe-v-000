@@ -45,4 +45,6 @@ class TicTacToe
       false
     end
   end
+  
+  def turn
 end 
