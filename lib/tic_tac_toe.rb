@@ -73,6 +73,10 @@ class TicTacToe
   end
   
   def won?
-    
+    WIN_COMBINATIONS.detect do |combo|
+      index_one = combo[0]
+      index_two = combo[1]
+      index_three = combo[2]
+    end
   end
 end 
