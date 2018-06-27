@@ -77,6 +77,12 @@ class TicTacToe
       index_one = combo[0]
       index_two = combo[1]
       index_three = combo[2]
+      
+      first_pos = @board[index_one]
+      second_pos = @board[index_two]
+      third_pos = @board[index_three]
+      
+      if first_pos == "X" && second_pos == "X" && third_pos == "X"
     end
   end
 end 
