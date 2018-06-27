@@ -83,6 +83,12 @@ class TicTacToe
       third_pos = @board[index_three]
       
       if first_pos == "X" && second_pos == "X" && third_pos == "X"
+        true
+      elsif first_pos == "O" && second_pos == "O" && third_pos == "O"
+        true
+      else
+        false
+      end
     end
   end
 end 
