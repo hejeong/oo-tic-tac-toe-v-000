@@ -130,6 +130,8 @@ class TicTacToe
   end
   
   def winner
-    
+    winning_combo = won?
+    winning_position = winning_combo[0]
+    winning_token = @board(winning_position)
   end
 end 
