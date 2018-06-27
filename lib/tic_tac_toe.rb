@@ -145,9 +145,8 @@ class TicTacToe
       turn
     end
     
-    winner_name = winner
-    if winner_name != nil
-      puts "Congratulations #{winner_name}!"
+    if winner != nil
+      puts "Congratulations #{winner}!"
     else
       puts "Cat's Game!"
     end
