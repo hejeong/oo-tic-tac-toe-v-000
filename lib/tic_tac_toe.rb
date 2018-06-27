@@ -47,10 +47,21 @@ class TicTacToe
   end
   
   def turn
+    token = current_player
     puts "Enter a valid position(1-9): "
     input = gets.strip
     index = input_to_index(input)
     
+    if valid_move?(index)
+      move(index, token)
+    else
+      until valid_move?(index)
+         puts "Enter a valid position(1-9): "
+        input = gets.strip
+        index = input_to_index(input)
+      end
+      move(index, token)
+    end
   end
   
   def turn_count
