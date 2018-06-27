@@ -109,7 +109,7 @@ class TicTacToe
       if element != "X" || element != "O"
         true
       else
-        true
+        false
       end
   end
   
